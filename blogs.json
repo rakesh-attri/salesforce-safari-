@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Automating Lead Assignment in Salesforce",
+    "content": "How we reduced response time by 40% using intelligent routing.",
+    "image": "images/generated/blog1.svg"
+  },
+  {
+    "title": "Building Resilient Test Frameworks",
+    "content": "Data-driven approaches that catch regressions early.",
+    "image": "images/generated/blog2.svg"
+  },
+  {
+    "title": "Integrating Centralized Logging",
+    "content": "Why centralized logs matter for observability.",
+    "image": "images/generated/blog3.svg"
+  }
+]

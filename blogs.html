@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blog — Salesforce Safari</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Salesforce Safari home">
+        <img src="images/logo.png" alt="Salesforce Safari logo" class="logo-img">
+        <span class="brand"><strong>Salesforce</strong> Safari</span>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="blogs.html" aria-current="page">Blogs</a></li>
+          <li><a href="admin.html">Admin</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="blogs">
+      <h1>All Blogs</h1>
+      <div id="blogList" class="blog-grid">
+        <!-- Blogs will be injected here -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year"></span> Salesforce Safari.</p>
+    </div>
+  </footer>
+
+  <script src="js/blogs.js"></script>
+</body>
+</html>
