@@ -50,7 +50,9 @@ git push -u origin main
 
 3. The workflow `.github/workflows/deploy-pages.yml` will run on push to `main` and publish the site to GitHub Pages. You can check Actions tab for progress.
 
-4. After deployment, your Pages site will be available under `https://rakesh-attri.github.io/salesforce-safari-/` (GitHub may take a minute to provision). If you prefer a custom domain, set it in repository Settings → Pages.
+4. The repository contains a GitHub Actions workflow that uses `JamesIves/github-pages-deploy-action` to publish the repository contents to the `gh-pages` branch. After you push to `main`, the Action will create/update `gh-pages` and publish the site.
+
+5. After deployment, your Pages site will be available under `https://rakesh-attri.github.io/salesforce-safari-/` (GitHub may take a minute to provision). If you prefer a custom domain, set it in repository Settings → Pages.
 
 Design cues:
 - Warm Jaipur-inspired palette (saffron, sandstone, ivory)
