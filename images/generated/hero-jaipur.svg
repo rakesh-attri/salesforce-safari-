@@ -1,1 +1,43 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='1600' height='900' viewBox='0 0 1600 900'><rect width='100%' height='100%' fill='#f4a261'/><g fill='#7a3f23' font-family='Playfair Display, serif'><text x='80' y='140' font-size='42'>Jaipur Cityscapes — Amber Fort</text></g></svg>
+
+<svg xmlns='http://www.w3.org/2000/svg' width='1416' height='250' viewBox='0 0 1416 250' preserveAspectRatio='xMidYMid meet'>
+  <defs>
+    <linearGradient id='g3' x1='0' y1='0' x2='0' y2='1'>
+      <stop offset='0' stop-color='#f97316'/>
+      <stop offset='1' stop-color='#ea580c'/>
+    </linearGradient>
+    <pattern id='dots' width='20' height='20' patternUnits='userSpaceOnUse'>
+      <circle cx='10' cy='10' r='1' fill='rgba(255,255,255,0.1)'/>
+    </pattern>
+  </defs>
+  <rect width='100%' height='100%' fill='url(#g3)'/>
+  <rect width='100%' height='100%' fill='url(#dots)'/>
+  <!-- Stylized Jaipur Palace -->
+  <g transform='translate(120,40)'>
+    <rect width='900' height='170' rx='20' fill='rgba(255,255,255,0.05)'/>
+    <g transform='translate(80,30)'>
+      <!-- Base structure -->
+      <path d='M0 140 L800 140' stroke='rgba(255,255,255,0.9)' stroke-width='6'/>
+      <!-- Central palace -->
+      <g transform='translate(300,0)'>
+        <path d='M0 140 L0 40 L200 40 L200 140' stroke='rgba(255,255,255,0.9)' stroke-width='4' fill='none'/>
+        <path d='M40 40 A60 60 0 0 1 160 40' stroke='rgba(255,255,255,0.9)' stroke-width='4' fill='none'/>
+        <rect x='80' y='70' width='40' height='50' rx='20' fill='rgba(255,255,255,0.15)'/>
+      </g>
+      <!-- Left wing -->
+      <g transform='translate(100,20)'>
+        <path d='M0 120 L0 60 L150 60 L150 120' stroke='rgba(255,255,255,0.9)' stroke-width='4' fill='none'/>
+        <path d='M30 60 A40 40 0 0 1 120 60' stroke='rgba(255,255,255,0.9)' stroke-width='4' fill='none'/>
+      </g>
+      <!-- Right wing -->
+      <g transform='translate(550,20)'>
+        <path d='M0 120 L0 60 L150 60 L150 120' stroke='rgba(255,255,255,0.9)' stroke-width='4' fill='none'/>
+        <path d='M30 60 A40 40 0 0 1 120 60' stroke='rgba(255,255,255,0.9)' stroke-width='4' fill='none'/>
+      </g>
+      <!-- Decorative elements -->
+      <circle cx='200' cy='100' r='15' fill='rgba(255,255,255,0.15)'/>
+      <circle cx='600' cy='100' r='15' fill='rgba(255,255,255,0.15)'/>
+    </g>
+  </g>
+  <text x='1050' y='80' font-size='38' fill='#fff' font-family='Montserrat, sans-serif' font-weight='700'>Welcome to Jaipur</text>
+  <text x='1050' y='130' font-size='18' fill='rgba(255,255,255,0.9)' font-family='Montserrat, sans-serif'>Experience excellence in Salesforce consulting from the Pink City</text>
+</svg>

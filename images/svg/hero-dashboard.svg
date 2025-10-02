@@ -1,0 +1,32 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1600' height='900' viewBox='0 0 1600 900'>
+  <defs>
+    <linearGradient id='g1' x1='0' y1='0' x2='0' y2='1'>
+      <stop offset='0' stop-color='#2563eb'/>
+      <stop offset='1' stop-color='#1d4ed8'/>
+    </linearGradient>
+    <pattern id='grid' width='40' height='40' patternUnits='userSpaceOnUse'>
+      <path d='M0 40L40 0M0 0L40 40' stroke='rgba(255,255,255,0.1)' stroke-width='1'/>
+    </pattern>
+  </defs>
+  <rect width='100%' height='100%' fill='url(#g1)'/>
+  <rect width='100%' height='100%' fill='url(#grid)'/>
+  
+  <!-- Dashboard elements -->
+  <g transform='translate(80,120)'>
+    <rect width='480' height='280' rx='12' fill='rgba(255,255,255,0.1)'/>
+    <rect x='20' y='20' width='440' height='60' rx='6' fill='rgba(255,255,255,0.15)'/>
+    <rect x='20' y='100' width='200' height='160' rx='6' fill='rgba(255,255,255,0.12)'/>
+    <rect x='240' y='100' width='220' height='160' rx='6' fill='rgba(255,255,255,0.12)'/>
+    
+    <!-- Chart lines -->
+    <path d='M40 180L100 140L160 160L220 130' stroke='#38bdf8' stroke-width='3' fill='none'/>
+    <path d='M260 200L320 170L380 190L440 160' stroke='#818cf8' stroke-width='3' fill='none'/>
+  </g>
+  
+  <text x='80' y='80' font-size='48' fill='#fff' font-family='Montserrat, sans-serif' font-weight='700'>
+    Smart Salesforce Dashboards
+  </text>
+  <text x='80' y='440' font-size='24' fill='rgba(255,255,255,0.9)' font-family='Montserrat, sans-serif'>
+    Real-time insights and analytics to drive your business decisions
+  </text>
+</svg>

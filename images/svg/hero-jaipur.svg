@@ -1,0 +1,39 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1600' height='900' viewBox='0 0 1600 900'>
+  <defs>
+    <linearGradient id='g3' x1='0' y1='0' x2='0' y2='1'>
+      <stop offset='0' stop-color='#f97316'/>
+      <stop offset='1' stop-color='#ea580c'/>
+    </linearGradient>
+    <pattern id='dots' width='20' height='20' patternUnits='userSpaceOnUse'>
+      <circle cx='10' cy='10' r='1' fill='rgba(255,255,255,0.1)'/>
+    </pattern>
+  </defs>
+  <rect width='100%' height='100%' fill='url(#g3)'/>
+  <rect width='100%' height='100%' fill='url(#dots)'/>
+  
+  <!-- Stylized Jaipur Palace -->
+  <g transform='translate(80,150)'>
+    <!-- Main structure -->
+    <path d='M100 200 L200 200 L200 100 L300 100 L300 200 L400 200 L400 50 L500 50 L500 200 L600 200' 
+          stroke='rgba(255,255,255,0.9)' stroke-width='4' fill='none'/>
+    
+    <!-- Domes -->
+    <path d='M150 100 A50 50 0 0 1 250 100' stroke='rgba(255,255,255,0.9)' stroke-width='4' fill='none'/>
+    <path d='M350 50 A50 50 0 0 1 450 50' stroke='rgba(255,255,255,0.9)' stroke-width='4' fill='none'/>
+    
+    <!-- Decorative elements -->
+    <circle cx='200' cy='150' r='15' fill='rgba(255,255,255,0.15)'/>
+    <circle cx='400' cy='125' r='15' fill='rgba(255,255,255,0.15)'/>
+    
+    <!-- Archways -->
+    <path d='M175 200 A25 25 0 0 1 225 200' stroke='rgba(255,255,255,0.9)' stroke-width='2' fill='none'/>
+    <path d='M375 200 A25 25 0 0 1 425 200' stroke='rgba(255,255,255,0.9)' stroke-width='2' fill='none'/>
+  </g>
+  
+  <text x='80' y='80' font-size='48' fill='#fff' font-family='Montserrat, sans-serif' font-weight='700'>
+    Welcome to Jaipur
+  </text>
+  <text x='80' y='440' font-size='24' fill='rgba(255,255,255,0.9)' font-family='Montserrat, sans-serif'>
+    Experience excellence in Salesforce consulting from the Pink City
+  </text>
+</svg>
