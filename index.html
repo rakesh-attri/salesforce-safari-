@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Salesforce Safari — Navigating Salesforce with Precision</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="Salesforce Safari home">
+  <img src="images/logo.png" alt="Salesforce Safari logo" class="logo-img">
+  <span class="brand brand-large"><strong>Salesforce</strong> <span class="brand-word">Safari</span></span>
+      </a>
+
+      <nav class="main-nav" id="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#cases">Case Studies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-controls="nav" aria-expanded="false" aria-label="Open navigation">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-carousel" id="carousel" aria-roledescription="carousel">
+        <button class="carousel-prev" aria-label="Previous slide">◀</button>
+        <div class="carousel-track">
+          <div class="slide" data-title="Dashboards">
+            <img src="images/generated/hero-dashboard.svg" alt="Salesforce dashboards screenshot">
+            <div class="slide-caption">
+              <h1>Navigating Salesforce with Precision</h1>
+              <p>From automation to analytics — we guide your Salesforce journey.</p>
+            </div>
+          </div>
+
+          <div class="slide" data-title="Automation">
+            <img src="images/generated/hero-automation.svg" alt="Automation workflow illustration">
+            <div class="slide-caption">
+              <h1>Automate with Confidence</h1>
+              <p>Intelligent workflows that reduce manual effort and improve accuracy.</p>
+            </div>
+          </div>
+
+          <div class="slide" data-title="Jaipur">
+            <img src="images/generated/hero-jaipur.svg" alt="Jaipur cityscape Amber Fort Hawa Mahal">
+            <div class="slide-caption">
+              <h1>Rooted in Jaipur. Global in Reach.</h1>
+              <p>We combine local heritage with modern technology.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-next" aria-label="Next slide">▶</button>
+        <div class="carousel-dots" id="carouselDots" aria-hidden="false"></div>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <div class="split">
+        <div class="about-text">
+          <h2>About Us</h2>
+          <p>Salesforce Safari is a technology consultancy and automation specialist based in Jaipur, India. Born from a passion for both the vibrant culture of Rajasthan and the precision of modern engineering, we help businesses transform their Salesforce platforms into high-performing, automated systems.</p>
+          <p><strong>Mission:</strong> Enable teams to move faster with reliable automation and actionable insights. <strong>Values:</strong> Curiosity, Craftsmanship, Client Success.</p>
+        </div>
+        <div class="about-image">
+          <img src="images/generated/about-jaipur.svg" alt="Jaipur landmark illustration">
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services container">
+      <h2>Our Services</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">🤖</div>
+          <h3>Salesforce Automation</h3>
+          <p>End-to-end automation for Sales, Service, and Marketing clouds.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🧪</div>
+          <h3>Data-Driven Testing</h3>
+          <p>Robust test frameworks that use real data to ensure reliability.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🧩</div>
+          <h3>Framework Development</h3>
+          <p>Reusable frameworks and CI integrations tailored to your stack.</p>
+        </article>
+        <article class="card">
+          <div class="icon">📊</div>
+          <h3>Reporting & Logging Integration</h3>
+          <p>Automated reporting pipelines and centralized logging for insights.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="blogs" class="blogs container">
+      <h2>Latest from our Blog</h2>
+      <div class="blog-grid">
+        <article class="blog">
+          <img src="images/generated/blog1.svg" alt="Blog thumbnail">
+          <h4>Automating Lead Assignment in Salesforce</h4>
+          <p>How we reduced response time by 40% using intelligent routing.</p>
+        </article>
+        <article class="blog">
+          <img src="images/generated/blog2.svg" alt="Blog thumbnail">
+          <h4>Building Resilient Test Frameworks</h4>
+          <p>Data-driven approaches that catch regressions early.</p>
+        </article>
+        <article class="blog">
+          <img src="images/generated/blog3.svg" alt="Blog thumbnail">
+          <h4>Integrating Centralized Logging</h4>
+          <p>Why centralized logs matter for observability.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="cases" class="cases container">
+      <h2>Case Studies</h2>
+      <div class="case-list">
+        <div class="case">
+          <div class="logo"><img src="images/generated/client1.svg" alt="Client logo"></div>
+          <div class="case-body">
+            <h3>Retailer X — Automation Rollout</h3>
+            <p>Improved order processing speed by <strong>62%</strong> and reduced errors by <strong>87%</strong>.</p>
+          </div>
+        </div>
+
+        <div class="case">
+          <div class="logo"><img src="images/generated/client2.svg" alt="Client logo"></div>
+          <div class="case-body">
+            <h3>HealthCo — Reporting Platform</h3>
+            <p>Delivered consolidated dashboards and reduced manual reporting time by <strong>70%</strong>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <form class="contact-form" id="contactForm">
+          <label for="name">Name</label>
+          <input id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+          <p class="form-note" id="formNote" aria-live="polite"></p>
+        </form>
+
+        <div class="map">
+          <h3>Our Office</h3>
+          <p>138, Hanuman Nagar, Jaipur, Rajasthan</p>
+          <div class="map-embed">
+            <!-- Static placeholder map image; user can replace with Google Maps embed key if desired -->
+            <img src="images/generated/map-jaipur.svg" alt="Map showing Jaipur location">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo-sm">
+          <img src="images/logo.png" alt="Salesforce Safari logo" class="logo-sm-img">
+        </div>
+        <div>
+          <strong>Salesforce Safari</strong>
+          <address>138, Hanuman Nagar, Jaipur, Rajasthan</address>
+        </div>
+      </div>
+
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#cases">Case Studies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-images">
+  <img src="images/generated/landmark1.svg" alt="Amber Fort"/>
+  <img src="images/generated/landmark2.svg" alt="Hawa Mahal"/>
+  <img src="images/generated/landmark3.svg" alt="Jal Mahal"/>
+      </div>
+
+      <div class="social">
+        <a href="#" aria-label="Twitter">🐦</a>
+        <a href="#" aria-label="LinkedIn">🔗</a>
+        <a href="#" aria-label="GitHub">🐙</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Salesforce Safari. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
